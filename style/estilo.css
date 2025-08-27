@@ -1,0 +1,1148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.primerGrid{
+
+    background-image:url(../assets/Fondo.png) ;
+    height: 80vh;
+    background-repeat: no-repeat;
+    zoom: 1;
+}
+
+.numero1{
+    width: 100%;
+    height: 17vh;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    
+}
+
+h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.letra{
+    color: #4bcaff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.numero2 {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+
+.numero3 {
+    display: flex;
+    align-items: center;
+    gap: 13%;
+    margin-right: 51%;
+    font-size: 68%;
+}
+
+.numero3 a{
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: transparent;
+    color: #4bcaff;
+    border-color: #4bcaff; 
+    padding: 2% 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 102%;
+}
+
+.n{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 70vh;
+}
+
+.numero4{
+    display: grid;
+    justify-items: center;
+    flex-direction: column;
+    align-content: center;
+    row-gap: 2%;
+}
+
+h2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 170%;
+}
+
+.segundoGrid{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: 2fr;
+    background-color: #4bcaff;
+    height: 47vh;
+    align-items: center;
+    column-gap: 1%;
+}
+
+.number{
+    grid-column: 5 / 6;
+}
+
+.number p{
+    padding-top: 5%;
+    color: white;
+    font-size: small;
+    font-family: 'Apple Pie', sans-serif;
+    font-size: 10px;
+}
+
+.number img{
+    width: 17%;
+}
+
+.number2{
+    grid-column: 4 / 5;
+}
+
+.number2 p{
+    padding-top: 5%;
+    color: white;
+    font-size: small;
+    font-family: 'Apple Pie', sans-serif;
+    font-size: 10px;
+}
+
+.number2 img{
+    width: 17%;
+}
+
+.number3{
+    grid-column: 3 / 4;
+}
+
+.number3 p{
+    padding-top: 5%;
+    color: white;
+    font-size: small;
+    font-family: 'Apple Pie', sans-serif;
+    font-size: 10px;
+}
+
+.number3 img{
+    width: 17%;
+}
+
+.number4{
+    grid-column: 2 / 3;
+}
+
+.number4 p{
+    padding-top: 5%;
+    color: white;
+    font-size: small;
+    font-family: 'Apple Pie', sans-serif;
+    font-size: 10px;
+}
+
+.number4 img{
+    width: 11%;
+}
+
+h3{
+    padding-top: 5%;
+    color: white;
+    font-family: 'Apple Pie', sans-serif;
+}
+
+
+#tercerGrid{
+    height: 18vh;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 2fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+h4 span{
+    border-bottom: 2px solid #868a8c;
+}
+
+h4{
+    color: #868a8c;
+    font-size: 150%;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn2{
+    background-color: transparent;
+    color: #4bcaff;
+    border-color: #4bcaff; 
+    padding: 1% 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 102%;
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 13%;
+    margin-right: 51%;
+    font-size: 68%;
+}
+
+.name a{
+    text-decoration: none;
+    color:#868a8c ;
+      font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#cuartoGrid{
+    height: 78vh;
+    display: grid;
+    grid-template-columns: repeat(6 , 0.4fr);
+    grid-template-rows: repeat(2 , 0.4fr);
+    column-gap: 1.4%;
+    row-gap: 3%;
+    
+}
+
+.c4{
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    background-image: url(../assets/photo04.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c3{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    background-image: url(../assets/photo03.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c2{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-image: url(../assets/photo02.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url(../assets/photo01.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c8{
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+    background-image: url(../assets/photo08.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c7{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-image: url(../assets/photo07.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c6{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-image: url(../assets/photo06.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+.c5{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-image: url(../assets/photo05.png);
+    background-repeat: no-repeat;
+    zoom: 0.9;
+    filter: grayscale(100%);
+}
+
+#quintoGrid{
+    height: 52vh;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(81, 95, 103);
+}
+
+h5 span{
+border-bottom: 2px solid #fdfeff;
+}
+
+h5{
+    color: #fdfeff;
+    font-size: 168%;
+    font-weight: 200;
+    padding-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.texto{
+    padding-left: 24%;
+}
+
+.texto p {
+    color: #fdfeff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 85%;
+}
+
+.btn3{
+    background-color: transparent;
+    border-color: #000000;
+    color: #000000;
+    padding: 2% 6%;
+}
+
+.texto2 img{
+
+    width: 80%;
+}
+
+.texto2{
+    padding-right: 11%;
+}
+
+#sextoGrid{
+    height: 33vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(2 , 1fr);
+   background-color: #4bcaff;
+   justify-items: center;
+    align-items: center;
+}
+
+h6 span{
+    border-bottom: 2px solid white;
+}
+
+h6{
+    color: #fdfeff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 150%;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.tall p{
+    color: #fdfeff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 140%;
+}
+
+.tall{
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+.tall p span{
+    font-weight: 500;
+}
+
+.t1{
+    grid-column: 1 / 3 ;
+    grid-row: 2 / 3 ;
+}
+
+.small{
+    padding-left: 28%;
+    padding-top: 3%;
+}
+
+.small2{
+    padding-right: 23%;
+    padding-top: 3%;
+}
+
+#septimoGrid{
+    background-image:url(../assets/bg_whoIs.png) ;
+    height: 68vh;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
+    grid-template-rows: repeat(3 , 1fr);
+    justify-items: center;
+    align-items: center;
+    zoom: 0.8;
+}
+
+.two{
+    padding-right:40% ;
+    padding-bottom: 18%;
+    width: 54%;
+}
+
+.w1{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+.two2 {
+    padding-right: 8%;
+    padding-bottom: 19%;
+}
+
+.w2{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.two2 p{
+    color: #fdfeff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+.two3 {
+    padding-right: 6%;
+    padding-top: 2%;
+}
+.w3{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.two3 p{
+    color: #fdfeff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+.two4{
+    padding-top: 2%;
+}
+.w4{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.two4 p{
+    color: #fdfeff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+.two5{
+    padding-right: 63%;
+    padding-top: 7%;
+}
+.w5{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.two50{
+    font-size: 168%;
+}
+
+#octavoGrid{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    align-items: center;
+}
+
+.titulo{
+    color: #000000;
+}
+.four h6 span{
+    border-bottom: 2px solid #000000 ;
+}
+.four{
+    padding-right: 13%;    
+}
+
+.four2{
+    padding-left: 25%;
+}
+.img2{
+    width: 100px;
+}
+
+.four3{
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.four3 p{
+    font-size: 160%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    padding-top: 1%;
+}
+
+.four3 p span{
+    color: #4bcaff;
+    font-size: 50%;
+    font-weight: 600;
+}
+
+.l3{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+#novenoGrid{
+    height: 96vh;
+    display: grid;
+    grid-template-columns:0.5fr repeat(2 , 1fr) 0.5fr;
+    grid-template-rows:0.5fr repeat(2 , 1fr) 0.5fr;
+    background-image:url(../assets/bg_contact.png) ;
+    justify-items: center;
+    align-items: center;
+}
+
+.ten{
+    padding-right: 79%;
+    padding-top: 15%;
+}
+.t2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.nine{
+    display: flex;
+    flex-direction: column;
+    padding-right: 66%;
+    
+}
+
+.nine input{
+    border: 2px solid #fdfeff;
+    background-color: transparent;
+    width: 235%;
+    padding: 11%;
+}
+
+.nine label{
+    padding-top: 20%;
+    font-size: 70%;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+
+.n1{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.nine2{
+    color: #fdfeff;
+    padding-top: 10%;
+}
+.nine2 p{
+    font-size: 80%;
+     font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-bottom: 4%;
+}
+
+.nine2 ul li{
+    font-size: 80%;
+     font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-bottom: 1%;
+}
+.n2{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.nine3 {
+    padding-right: 19%;
+}
+.n3{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+.n4{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+textarea{
+    background-color: transparent;
+    /* border-color: #fdfeff; */
+    width: 124%;
+    border: 2px solid #fdfeff;
+}
+
+label{
+    color: #fdfeff;
+    
+}
+
+ul{
+    list-style-type: none;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+}
+ul label{
+    font-size: 70%;
+}
+
+.btn4{
+    background-color: #4bcaff;
+    color: #fdfeff;
+    /* border: 0px; */
+    border-color: #4bcaff;
+    padding: 17px 113px;
+}
+.nine4{
+    padding-right: 39%;
+    padding-bottom: 13%;
+}
+
+#decimoGrid{
+    height: 18vh;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-color: #353f47;
+    align-items: center;
+}
+
+.final{
+    padding-left: 34%;
+}
+a{
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: #5a5a5a;
+    font-size: 68%;
+    padding-right: 2%;
+}
+
+a span{
+    padding-left: 2%;
+}
+
+.final2{
+    padding-left: 59%;
+}
+
+.final2 p{
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: #5a5a5a;
+    font-size: 75%;
+}
+
+
+
+@media(max-width: 1279px) {
+    /* primer grid */
+    .numero3{
+        gap: 9%;
+        margin-right: 54%;
+    }
+    .numero2{
+        padding-right: 10%;
+    }
+    .primerGrid{
+        height: 76vh;
+        background-position: center;
+        background-size: cover;
+    }
+    h2{
+        font-size: 145%;
+    }
+    .n{
+        height: 55vh;
+    }
+
+    /* segundoGrid */
+
+    .segundoGrid{
+        height: 37vh;
+    }
+
+    /* tercergrid */
+    .name{
+        margin-right: 55%;
+    }
+    .port{
+        padding-right: 3%;
+    }
+
+    /* cuartoGrid */
+    .c1{
+        background-position: center;
+        background-size: cover;
+    }
+    .c2{
+        background-position: center;
+        background-size: cover;
+    }
+    .c3{
+        background-position: center;
+        background-size: cover;
+    }
+    .c4{
+        background-position: center;
+        background-size: cover;
+    }
+    .c5{
+        background-position: center;
+        background-size: cover;
+    }
+    .c6{
+        background-position: center;
+        background-size: cover;
+    }
+    .c7{
+        background-position: center;
+        background-size: cover;
+    }
+    .c8{
+        background-position: center;
+        background-size: cover;
+    }
+    /* quintoGrid */
+    .texto p {
+        font-size: 58%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .texto2 img {
+        width: 71%;
+        padding-left: 4%;
+    }
+    .texto {
+        padding-left: 35%;
+    }
+    .btn3{
+        padding: 1% 3%;
+    }
+
+    /* sextoGrid */
+    .sextoGrid{
+        height: 30vh;
+    }
+    .small2 {
+    padding-right: 15%;
+    }
+    .tall {
+        padding-right: 0%;
+        padding-bottom: 10%;
+        padding-left: 2%;
+    }
+
+    .tall p{
+        font-size: 101%;
+    }
+    /* septimoGrid */
+    #septimoGrid{
+        background-position: center; /* Esta línea la centrará horizontal y verticalmente */
+        background-size: cover;/* Esto hará que la imagen cubra todo el espacio sin deformarse */
+        zoom: 0.5;
+    }
+    .two {
+        padding-right: 14%;
+        padding-bottom: 25%;
+        width: 85%;
+    }
+    .two5{
+        padding-top: 34%;
+    }
+    /* octavoGrid */
+    #octavoGrid {
+    height: 30vh;
+    }
+    .img2 {
+    width: 75px;
+    }
+    .four {
+    padding-right: 4%;
+    }
+    .four2 {
+    padding-left: 24%;
+    }
+    .four3 {
+    padding-right: 1%;
+    }
+    .four3 p {
+    font-size: 104%;
+    }
+    /* novenoGrid */
+    #novenoGrid {
+    height: 77vh;
+    background-position: center;
+    background-size: cover;
+    }
+    .ten {
+    padding-right: 65%;
+    padding-top: 30%;
+    }
+    .nine input{
+        width: 234%;
+        padding: 18%;
+    }
+    .nine2 p {
+    font-size: 57%;
+    padding-bottom: 0%;
+    }
+    .nine2 ul li {
+    font-size: 65%;
+    }
+    .nine3 {
+    padding-right: 18%;
+    padding-bottom: 4%;
+    }
+    .nine4 {
+    padding-right: 7%;
+    }
+    .btn4{
+        padding: 11px 104px;
+    }
+
+}
+
+@media(max-width:920px){
+    /* primerGrid */
+    .primerGrid{
+        height: 63vh;
+    }
+    h2 {
+        font-size: 125%;
+    }
+    .n{
+        height: 42vh;
+    }
+    /* tercerGrid */
+    #tercerGrid {
+        height: 15vh;
+    }
+        .name {
+        margin-right: 58%;
+        font-size: 58%;
+    }
+    .port {
+        padding-right: 0%;
+    }
+    h4{
+        font-size: 131%;
+    }
+    /* cuartoGrid */
+    #cuartoGrid {
+    height: 54vh;
+    }
+
+    /* quintoGrid */
+    #quintoGrid {
+        height: 38vh;
+    }
+    .texto p {
+        font-size: 49%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+    h5{
+        font-size: 77%;
+    }
+    .btn3 {
+        padding: 1% 2%;
+    }
+
+    /* sectoGrid */
+    #sextoGrid {
+        height: 25vh;
+    }
+    .tall p {
+        font-size: 83%;
+    }
+    .tall{
+        padding-bottom: 8%;
+        padding-left: 0%;
+    }
+
+    /* septimoGrid */
+    .two5 {
+        padding-top: 19%;
+    }
+
+    /* octavoGrid */
+    #octavoGrid {
+        height: 25vh;
+    }
+    h6{
+        font-size: 122%;
+    }
+    .img2 {
+        width: 56px;
+    }
+    .four3 p {
+        font-size: 87%;
+    }
+
+    /* novenoGrid */
+    #novenoGrid {
+        height: 64vh;
+    }
+    .nine{
+        padding-right: 73%;
+        padding-bottom: 10%;
+    }
+    .nine2 {
+        padding-top: 2%;
+    }
+    .nine2 p {
+        font-size: 43%
+    }
+    .nine2 ul li {
+        font-size: 51%;
+    }
+    .nine input {
+        width: 292%;
+        padding: 10%;
+    }
+    .nine3 {
+        padding-right: 20%;
+        padding-bottom: 2%;
+    }
+    .nine4 {
+        padding-right: 23%;
+    }
+    .btn4 {
+        padding: 3px 59px;
+    }
+    
+  
+}
+
+
+@media(max-width: 768px){
+    /* primerGrid */
+    .primerGrid {
+        height: 40vh;
+    }
+    .numero1{
+        height: 11vh;
+    }
+    .n {
+        height: 24vh;
+    }
+    h1{
+        font-size: 106%;
+    }
+    h2 {
+        font-size: 76%;
+    }
+    .numero3 {
+        gap: 4%;
+        margin-right: 65%;
+    }
+    .btn{
+        font-size: 49%;
+    }
+
+    /* segundoGrid */
+    .segundoGrid{
+        grid-template-columns: 0.5fr  repeat(2 , 1fr)  0.5fr;
+        grid-template-rows:repeat(2 ,0.5fr) ;
+        height: 46vh;
+        column-gap: 3%;
+    }
+    .s1{
+        grid-column: 2 / 3;
+        grid-row: 1 /2;
+    }
+    .s2{
+        grid-column: 3 / 4;
+        grid-row: 1/2;
+    }
+    .s3{
+        grid-column: 2 / 3;
+        grid-row: 2 /3;
+    }
+    .s4{
+        grid-column: 3 / 4;
+        grid-row: 2 /3;
+    }
+
+    /* tercerGrid */
+    #tercerGrid {
+        height: 10vh;
+    }
+    .name {
+        margin-right: 52%;
+        font-size: 1%;
+        gap: 3%;
+    }
+    h4 {
+        font-size: 85%;
+    }
+    /* cuantoGrid */
+        #cuartoGrid {
+        height: 40vh;
+    }
+    /* quintoGrid */
+        #quintoGrid {
+        height: 38vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .texto2 img {
+        width: 40%;
+        padding-left: 4%;
+        padding-bottom: 4%;
+        padding-top: 4%;
+    }
+    .texto {
+        padding-left: 0%; 
+        display: contents;
+        text-align: justify;
+    }
+    .texto p {
+        font-size: 54%;
+    }
+    .texto2 {
+    padding-right: 0%;
+    display: contents;
+    }
+    .btn3 {
+        padding: 0% 0%;
+    }
+    h5 {
+        font-size: 82%;
+        padding-bottom: 0%;
+    }
+
+
+    /*sextoGrid  */
+    #sextoGrid {
+        height: 17vh;
+    }
+    .tall p {
+        font-size: 61%;
+    }
+    .small2 {
+        padding-right: 33%;
+    }
+    .small{
+    padding-left: 39%;
+    }
+
+    /* septimoGrid */
+    #septimoGrid{
+        grid-template-columns: 0.3fr repeat(2, 1fr) 0.3fr;
+    }
+    .two {
+        padding-right: 8%;
+        padding-bottom: 32%;
+        width: 91%;
+    }
+    /* octavoGrid */
+    #octavoGrid {
+        height: 19vh;
+    }
+    .four {
+        padding-right: 12%;
+    }
+    h6 {
+        font-size: 95%;
+    }
+
+    .four3 p {
+        font-size: 60%;
+    }
+    .img2{
+        width: 41px;
+    }
+    /* novenoGrid */
+    .nine {
+        padding-right: 69%;
+        padding-bottom: 11%;
+    }
+    .nine input {
+        width: 263%;
+        padding: 11%;
+    }
+    .nine4 {
+        padding-right: 1%;
+    }
+    .btn4 {
+        padding: 2px 60px;
+    }
+    /* decimoGrid */
+    #decimoGrid {
+    height: 11vh;
+    }
+    a{
+        font-size: 41%;
+    } 
+    .final2 p {
+        font-size: 52%;
+    }
+  }
+
+  @media(max-width: 480px){
+    /* sextoGrid */
+    h6 {
+        font-size: 140%;
+    }
+    .tall p {
+        font-size: 59%;
+    }
+    /* octavoGrid */
+    h6 {
+        font-size: 108%;
+    }
+  }
