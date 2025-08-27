@@ -1149,11 +1149,25 @@ a span{
         font-size: 50%;
     }
     /* septimoGrid */
+    .two{
+        padding-right: 26%;
+        padding-bottom: 27%;
+        width: 75%;
+    }
+    .two2{
+        font-size: small;
+    }
+    .two3{
+        font-size: small;
+    }
+    .two4{
+        font-size: small;
+    }
     .two50 {
     font-size: 114%;
     }
     .two5 {
-        padding-top: 5%;
+        padding-top: 26%;
     }
     /* octavoGrid */
     #octavoGrid {
@@ -1164,6 +1178,16 @@ a span{
     }
     .four3 p {
         font-size: 48%;
+    }
+    /* novenoGrid */
+    .nine2 p {
+        font-size: 37%;
+    }
+    .nine2 ul li {
+        font-size: 38%;
+    }
+    .btn4 {
+        padding: 4px 24px;
     }
     /* decimoGrid */
     #decimoGrid {
