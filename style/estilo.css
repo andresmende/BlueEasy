@@ -1366,6 +1366,9 @@ a span{
     h6 {
         font-size: 121%;
     }
+    .four2 {
+        padding-left: 0;
+    }
     .four3 p {
         font-size: 76%;
     }
