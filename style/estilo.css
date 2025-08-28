@@ -1134,12 +1134,23 @@ a span{
   }
 
   @media(max-width: 480px){
+    
+    .numero3{
+        gap: 3%;
+        margin-right: 0%;
+        padding-right: 27%;
+    }
     /* segundoGrid */
     .segundoGrid {
         height: 91vh;
         grid-template-columns: 0.2fr 1fr 0.2fr;
         grid-template-rows: repeat(4, 0.5fr);
     }
+
+        .name {
+        margin-right: 0;
+        padding-right: 15%;
+        }
     .s2{
         grid-column: 2 / 3;
         grid-row: 2 / 3;
@@ -1351,9 +1362,6 @@ a span{
     }
     h6 {
         font-size: 121%;
-    }
-    .four2 {
-        padding-right: 100%;
     }
     .four3 p {
         font-size: 76%;
