@@ -1377,7 +1377,7 @@ a span{
     }
     /* novenoGrid */
     #novenoGrid{
-        height: 77vh;
+        height: 80vh;
         grid-template-columns: 0.2fr 1fr 0.2fr;
         grid-template-rows: repeat(5, 1fr);
     }
