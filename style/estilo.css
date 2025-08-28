@@ -1348,6 +1348,9 @@ a span{
         grid-template-columns: 0.2fr 1fr 0.2fr;
         grid-template-rows: 1fr 1fr;
     }
+    .img2 {
+        width: 31px;
+    }
     .l1{
         grid-column: 2 / 3;
         grid-row: 1 / 2;
