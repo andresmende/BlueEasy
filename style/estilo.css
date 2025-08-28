@@ -1136,9 +1136,9 @@ a span{
   @media(max-width: 480px){
     
     .numero3{
-        gap: 3%;
+        gap: 2%;
         margin-right: 0%;
-        padding-right: 27%;
+        justify-content: center;
     }
     /* segundoGrid */
     .segundoGrid {
